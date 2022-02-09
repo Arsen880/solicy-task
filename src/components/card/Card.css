@@ -1,0 +1,32 @@
+.cardContainer {
+    height: 200px;
+    width: 200px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.cardContainer-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cardContainer-content {
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deleteButton {
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.deleteButton:hover {
+    color: red;
+}

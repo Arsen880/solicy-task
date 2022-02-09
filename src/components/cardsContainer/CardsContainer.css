@@ -1,0 +1,33 @@
+.cardsContainer {
+    width: 80%;
+    height: calc(100vh - 90px);
+    margin-top: 30px;
+    margin-bottom:50px;
+    padding: 20px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-y: auto;
+    justify-content: center;
+}
+
+.headerContainer {
+    position: fixed;
+    width: 80%;
+    height: 30px;
+    border-bottom: 1px solid gray;
+
+    top: 0; 
+}
+
+.navigationBtn {
+     border-radius: 5px;
+     cursor: pointer;
+     margin: 0 10px;
+     border: 1px solid gray;
+}
+
+.navigationBtn:hover {
+    background-color: blue;
+}

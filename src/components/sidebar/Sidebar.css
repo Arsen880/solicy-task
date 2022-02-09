@@ -1,0 +1,12 @@
+.sidebarContainer {
+    display: flex;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 20%;
+    height: 100%;
+    border-left: 1px solid gray;
+    align-items: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
